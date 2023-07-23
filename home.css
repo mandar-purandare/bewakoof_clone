@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: monsterrat, sans-serif;
+}
+
+.temp-border{
+    border: 1px solid blue;
+}
+
+.display-flex{
+    display: flex;
+}
+
+#container {
+    width: 100%;
+    height: 4000px;
+    border: 1px solid blue;
+}
+
+#navbar{
+    height: 127px;
+    width: 100%;
+    position: fixed;
+}
+
+#nav-top{
+    height: 25px;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: rgb(238,238,238);
+    /* display: flex; */
+}
+
+#nav-top-left{
+    width: 50%;
+    padding-left: 7%;
+}
+
+.nav-top-left-links{
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+    color: rgb(97,99,97);
+}
+
+#nav-top-right{
+    width: 50%;
+    justify-content: right;
+    padding-right: 7%;
+}
+
+.nav-top-right-links{
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+    color: rgb(97,99,97);
+}
+
+#nav-middle{
+    height: 52px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+#nav-middle-left{
+    margin-top: 15px;
+    width: 50%;
+    padding-left: 7%;
+}
+
+.nav-middle-left-links{
+    padding-right: 20px;
+    padding-left: 11px;
+    font-size: 13px;
+    color: rgb(97,99,97);
+    margin-top: 5px;
+}
+
+#nav-middle-right{
+    
+    width: 50%;
+    padding-right: 7%;
+    
+}
+
+#nav-middle-search-bar{
+    margin-top: 4px;
+    height: 40px;
+    width: 302px;
+    margin-left: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#nav-bottom{
+    height: 50px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+#scroller{
+    height: 473px;
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 147px;
+}
+
+#explore{
+    height: 222px;
+    /* width: 100%; */
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid blue;
+    max-width: 70%;
+}
+
+#ad{
+    height: 141px;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid blue;
+}
+
+#designs-of-the-week{
+    height: 410px;
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+
+#trending-categories{
+    height: 680px;
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+
+#too-hot-to-be-missed{
+    height: 812px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+#footer{
+    height: 351px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+
+
