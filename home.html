@@ -23,28 +23,193 @@
                 </div>
             </div>
             <div id="nav-middle" class="display-flex">
-                <div id="nav-middle-left" class="temp-border display-flex">
+                <div id="nav-middle-left" class=" display-flex">
                     <img style="height: 20px; width: 147px ; padding-right: 30px;" src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg">
                     <p class="nav-middle-left-links">MEN</p>
                     <p class="nav-middle-left-links">WOMEN</p>
                     <p class="nav-middle-left-links">MOBILE COVERS</p>
                 </div>
-                <div id="nav-middle-right" class="temp-border display-flex">
-                    <div id="nav-middle-search-bar" class="temp-border">
+                <div id="nav-middle-right" class=" display-flex">
+                    <div id="nav-middle-search-bar" class="">
                         <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #7575a2; margin-top: 20px; margin-left:10px;"></i>
-                        <input type="text" style="width: 70%; height: 60%; border: transparent;">
+                        <input type="text" id="nav-middle-search-bar-input" placeholder="Search by product, category or collection">
+                    </div>
+                    <div id="nav-middle-icons" class=" display-flex">
+                        <p style="margin-top: 15px;">|</p>
+                        <div style="width: 61px; height: 100%;">
+                            <p style="margin-top: 15px; margin-left: 10px;">Login</p>
+                        </div>
+                        <div style="width: 30px; height: 100%;" class="">
+                            <i class="fa-regular fa-heart fa-xl" style="color: #4c4c4c; margin-top: 22px; margin-left: 2px;"></i>
+                        </div>
+                        <div style="width: 30px; height: 100%;" class="">
+                            <i class="fa-solid fa-bag-shopping fa-xl" style="color: #4c4c4c; margin-top: 20px; margin-left: 5px;"></i>
+                        </div>
+                        <div style="width: 48px; height: 100%;" class="">
+                            <div style="height: 30px; width: 30px; border: 1px solid transparent; border-radius: 50%; margin-top: 7px; margin-left: 5px;">
+                                <img src="data:image/png;base64,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" style="height: 100%; width: 100%; border-radius: 50%;">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="nav-bottom"></div>
+            <div id="nav-bottom">
+                <div class="display-flex monsterrat-medium" style="justify-content: space-evenly; width: 90%; margin: auto; padding-top: 15px; height: 90%;">
+                    <p>BEWAKOOF AIR</p>
+                    <p>MEN</p>
+                    <p>WOMEN</p>
+                    <p>ACCESSORIES</p>
+                    <p>OFFICIAL MERCH</p>
+                    <p>PLUS SIZE</p>
+                    <p>TEENS</p>
+                </div>
+            </div>
         </div>
-        <div id="scroller"></div>
-        <div id="explore"></div>
-        <div id="ad"></div>
-        <div id="designs-of-the-week"></div>
-        <div id="trending-categories"></div>
-        <div id="too-hot-to-be-missed"></div>
-        <div id="footer"></div>
+        <div id="scroller" style="display: flex;">
+            <img src="https://images.bewakoof.com/uploads/grid/app/newbanner-1x1-GraphicVests-1689572485.jpg" style="height: 100%; margin-left: 10px;">
+            <img src="https://images.bewakoof.com/uploads/grid/app/relaunch-AIR-newbanner-1x1-common-1689943100.jpg" style="height: 100%; margin-left: 10px;">
+            <div style="position: relative; z-index: -1;">
+                <img src="https://images.bewakoof.com/uploads/grid/app/1X1-STATIC-utility-cargos-common-1689670699.jpg" style="height: 100%; margin-left: 10px;">
+                <i class="fa-solid fa-circle-chevron-right fa-2xl" style="color: #a8acb3; position: absolute; top: 50%; right: 30%;"></i>
+            </div>
+        </div>
+        <div id="explore">
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-newarrivals-common-1682570370.jpg">
+                <p>New Arrivals</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-common-bestseller-1679567164.jpg">
+                <p>Bestsellers</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-official-collab-common-1682570371.jpg">
+                <p style="width: 100%; margin-left: 4px;">Official Collaborations</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-old-version-1687889121.jpg">
+                <p style="margin-left: 20px;">Customization</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-old-version-1687889121.jpg">
+                <p style="margin-left: 40px;">Combos</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/vote-thumbnail-1668508339.jpg">
+                <p style="margin-left: 20px;">Vote For Designs</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/last-size-new-thumbnaik-1668508337.jpg">
+                <p style="margin-left: 20px;">Last Sizes Left</p>
+            </div>
+            <div class="explore-pics">
+                <img src="https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-plus-size-common-1682570373.jpg">
+                <p style="margin-left: 40px;">Plus Size</p>
+            </div>
+        </div>
+        <div id="ad">
+            <img src="https://images.bewakoof.com/uploads/grid/app/brand-strip-1683780891-1684740361.gif" style="width: 100%;">
+        </div>
+        <div id="designs-of-the-week">
+            <p style="font-size: 20px; margin-left: 40%; font-family: sans-serif; font-weight: 700; letter-spacing: 2px;">Designs of the Week</p>
+            <div style="display: flex;">
+                <div>
+                    <img src="https://images.bewakoof.com/uploads/grid/app/DOTW-Split-banner-Desktop-Men-1690092944.jpg">
+                </div>
+                <div>
+                    <img src="https://images.bewakoof.com/uploads/grid/app/DOTW-Split-banner-Desktop-Women-1690092943.jpg">
+                </div>
+            </div>
+        </div>
+        <div id="trending-categories">
+            <p style="font-size: 20px; margin-left: 40%; font-family: sans-serif; font-weight: 700; letter-spacing: 2px;">TRENDING CATEGORIES</p>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-printed-tees-m-1685445850.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-oversized-tees-m-1685086219.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-shorts-1686063035.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-joggers-m-1684997505.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-vests-1686063036.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-fullsleeve-1686063034.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-printed-tees-w-1685445851.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-Oversized-tshirts-Women-1682055634.png" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-fashion-tops-1686305660.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-Joggers-Women-1682055633.png" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-WOMEN-Dresses-1681725004.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="trending-category-pics ">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-WOMEN-BoyfriendTeess-1681730084.jpg" style="width: 100%; height: 100%;">
+                </div>
+            </div>
+        </div>
+        <div id="too-hot-to-be-missed">
+            <p style="font-size: 20px; margin-left: 40%; margin-top: 15px; font-family: sans-serif; font-weight: 700; letter-spacing: 2px;">TOO HOT TO BE MISSED</p>
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+                <div class="too-hot-to-be-missed-pics"><img src="https://images.bewakoof.com/uploads/grid/app/mid-size-hygiene-revamp-desktop-buy3-1689160570.jpg"></div>
+                <div class="too-hot-to-be-missed-pics"><img src="https://images.bewakoof.com/uploads/grid/app/mid-size-hygiene-revamp-joggersunleashed-desktop-1689572489.jpg"></div>
+                <div class="too-hot-to-be-missed-pics"><img src="https://images.bewakoof.com/uploads/grid/app/new-mid-banner-bftees-1689742322.jpg"></div>
+                <div class="too-hot-to-be-missed-pics"><img src="https://images.bewakoof.com/uploads/grid/app/mid-size-ovrszd-elegance-1689944954.jpg"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="data:image/png;base64,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" style="height: 200px; margin-top: 0; margin-left: 100px;">
+            <div style="height: 128px; width: 80%; margin-left: 100px; display: flex; justify-content: space-between;" class="">
+                <div class="footer-blocks">
+                    <p style="font-size: 12px; margin-bottom: 20px; letter-spacing: 1px; color: rgb(253,216,53);">CUSTOMER SERVICE</p>
+                    <p>Contact Us</p>
+                    <p>Track Order</p>
+                    <p>Return Order</p>
+                    <p>Cancel Order</p>
+                </div>
+                <div class="footer-blocks">
+                    <p style="font-size: 12px; margin-bottom: 20px; letter-spacing: 1px; color: rgb(253,216,53);">COMPANY</p>
+                    <p>About Us</p>
+                    <p>We're Hiring</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Blog</p>
+                </div>
+                <div class="footer-blocks">
+                    <p style="font-size: 12px; margin-bottom: 20px; letter-spacing: 1px; color: rgb(253,216,53);">CONNECT WITH US</p>
+                    <p style="margin-bottom: 10px;"><i class="fa-brands fa-square-facebook fa-xl"></i> 4.7M People Like his</p>
+                    <p style="margin-bottom: 10px;"><i class="fa-brands fa-instagram fa-xl"></i> 1M Followers</p>
+                    <div style="width:125px; display: flex;justify-content: space-between; margin-top: 20px;">
+                        <i class="fa-brands fa-twitter fa-xl"></i><i class="fa-brands fa-pinterest fa-xl"></i> <i class="fa-brands fa-snapchat fa-xl"></i><i class="fa-brands fa-apple fa-xl"></i>
+                    </div>
+                </div>
+                <div class="footer-blocks">
+                    <p style="font-size: 12px; margin-bottom: 20px; letter-spacing: 1px; color: rgb(253,216,53);">KEEP UP TO DATE</p>
+                    <div style="height: 34px; display: flex;" class="">
+                        <div style="width: 156px; border-bottom: 2px solid rgb(253,216,53);">
+                            <input style="height: 100%; width: 100%; background-color: transparent; border: transparent;" placeholder=" Enter Email Id">
+                        </div>
+                        <div style="width: 128px;">
+                            <button style="width: 100%; height: 100%; background-color: rgb(253,216,53);">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
