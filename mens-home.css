@@ -1,0 +1,111 @@
+
+
+#scroller {
+    display: flex; 
+    margin-top: 0%; 
+    height: 12%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0%;
+}
+
+#scroller > div{
+    width: 32.5%;
+    height: 30em;
+}
+
+#scroller > div > img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    object-fit: contain;
+}
+
+
+#swiper-pagination{
+    height: 0.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#swiper-pagination > span{
+    width: 2%;
+    height: 20%;
+    background-color: rgb(218,189,78);
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+#explore img{
+    height: 80%;
+    border: none;
+}
+
+.explore-pics{
+    height: 100%;
+    width: 125px;
+}
+
+
+#explore p{
+    font-size: 11px;
+    margin-top: 17px;
+    font-weight: 700;
+    width: 60%;
+    margin: auto;
+    word-wrap:normal;
+}
+
+.trending-category-pics{
+    height: 100%;
+    width: 100%;
+}
+
+
+#jumbo-savings > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+
+#jumbo-savings > div:nth-child(1) > img{
+    width: 100%;
+}
+
+#jumbo-savings > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+#jumbo-savings > div:nth-child(2) >img{
+    width: 50%;
+    margin: 0%;
+}
+
+.too-hot-to-be-missed-pics{
+    width: 100%;
+    height: 100%;
+    margin: 2.5px;
+}
+
+#best-of-bewakoof {
+    display: flex; 
+    margin-top: 0%; 
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0%;
+}
+
+#best-of-bewakoof > div{
+    width: 32.5%;
+    height: 30em;
+}
+
+#best-of-bewakoof > div > img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    object-fit: contain;
+} 
