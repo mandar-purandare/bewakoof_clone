@@ -109,3 +109,14 @@
     margin-top: 10%;
     object-fit: contain;
 } 
+
+#our-best-picks{
+    height: 812px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#our-best-picks img{
+    width: 100%;
+    height: 100%;
+}
