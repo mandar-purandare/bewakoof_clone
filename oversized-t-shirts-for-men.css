@@ -1,3 +1,7 @@
+/* #container{
+    position: relative;
+} */
+
 #navbar{
     border-bottom: 1px solid gray;
     height: 80px;
@@ -39,18 +43,34 @@
     border: none;
 }
 
-#filters-and-results{
+/* #filters-and-results{
     margin-top: 4%;
     height: 1000px;
     border: 1px solid black;
     display: flex;
-}
+} */
 
 #filters{
-    width: 250px;
-    height: 100%;
+    /* width: 350px; */
+    width: 22%;
+    /* height: 100%; */
+    margin-top: 4%;
     border: 1px solid black;
+    display: inline-block;
+    position: sticky;
+    top:100px;
+    z-index: -1;
 }
+
+/* #sticky {
+    
+    width: 350px;
+    position: sticky;
+    top: 100px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  } */
 
 #filters > div{
     width: 100%;
@@ -58,6 +78,7 @@
     border-bottom: 1px solid #949494;
     vertical-align: center;
     padding-top: 5%;
+    display: inline-block;
 }
 
 #filters > div > i{
@@ -66,9 +87,15 @@
 }
 
 #results{
-    width: 100%;
+    width: 75%;
+    /* width: 400px; */
     height: 100%;
     border: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4%;
+    /* position: sticky;
+    top: 10px; */
 }
 
 #results-header{
@@ -83,15 +110,79 @@
 }
 
 #results-pics-grid{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    border: 1px solid blue;
+    height: 2000px;
 }
 
-/* #results-pics > div{
-    height: 30%;
-    width: 20%;
+#results-pics-grid > div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 3%;
+    /* height: 2000px; */
+    /* border: 5px solid green; */
+}
+
+#results-pics-grid > div > div{
+    height: 23%;
+    /* width: 13em; */
+    width: 32%;
     border: 1px solid black;
-} */
+}
+
+#results-pics-grid img{
+    height: 100%;
+    width: 100%;
+}
+
+.results-pics-grid-info{
+    line-height: 125%;
+}
+
+.results-info-text-style{
+    font-size: 80%;
+    color: rgb(115,124,124);
+}
+
+.product-title{
+    color: rgb(79,83,108);
+    font-weight: 600;
+}
+
+.heart-symbol{
+    float: right;
+    margin-right: 2%;
+}
+
+.for-tribe-members{
+    background-color: rgb(247,247,247);
+    width: 70%;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 70%;
+}
+
+.old-price{
+    text-decoration: line-through;
+    margin-left: 2%;
+    font-size: 80%;
+    font-weight: normal;
+}
+
+.new-price{
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.hundred-per-cotton{
+    border: 1px solid black;
+    width: 40%;
+    /* height: 1em; */
+    font-size: 70%;
+    padding: 1%;
+    text-align: center;
+}
+
+#footer{
+    margin-top: 15%;
+}

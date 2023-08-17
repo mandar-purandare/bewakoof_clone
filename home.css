@@ -25,6 +25,7 @@
     height: 127px;
     width: 100%;
     position: fixed;
+    top:0;
 }
 
 #nav-top{
