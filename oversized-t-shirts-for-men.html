@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./oversized-t-shirts-for-men.css">
-    <!-- <link rel="stylesheet" href="./mens-home.css"> -->
     <script src="https://kit.fontawesome.com/3308ca8b1f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,7 +26,7 @@
             <div id="nav-middle" class="display-flex">
                 <div id="nav-middle-left" class=" display-flex">
                     <img style="height: 20px; width: 147px ; padding-right: 30px;" src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg">
-                    <p class="nav-middle-left-links">MEN</p>
+                    <a class="nav-middle-left-links" href="./mens-home.html">MEN</a>
                     <p class="nav-middle-left-links">WOMEN</p>
                     <p class="nav-middle-left-links">MOBILE COVERS</p>
                 </div>
@@ -47,11 +46,11 @@
                         <div style="width: 30px; height: 100%;" class="">
                             <i class="fa-solid fa-bag-shopping fa-xl" style="color: #4c4c4c; margin-top: 20px; margin-left: 5px;"></i>
                         </div>
-                        <!-- <div style="width: 48px; height: 100%;">
+                        <div style="width: 48px; height: 100%;">
                             <div style="height: 30px; width: 30px; border: 1px solid transparent; border-radius: 50%; margin-top: 7px; margin-left: 5px;">
                                 <img src="data:image/png;base64,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" style="height: 100%; width: 100%; border-radius: 50%;">
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,6 +66,17 @@
                 </div>
             </div> -->
         </div>
+        <div id="mobile-view-navbar">
+            <div style="height:100%; width: 150px;">
+                <img src="https://images.bewakoof.com/web/ic-web-head-hamburger.svg" style="height: 50%; width: 30%; margin-top: 15px;">
+                <img src="https://images.bewakoof.com/web/ic-web-head-bwk-primary-logo-eyes.svg" style="height: 40%; width: 30%; margin-top: 5px;">  
+            </div>
+            <div style="height:100%; width: 150px;">
+                <img src="https://images.bewakoof.com/web/ic-web-head-search.svg" style="margin: 15px 10px;">
+                <img src="https://images.bewakoof.com/web/ic-web-head-wishlist.svg" style="margin: 15px 10px;">
+                <img src="https://images.bewakoof.com/web/ic-web-head-cart.svg" style="margin: 15px 10px;">
+            </div>
+        </div>
         <div id="page-path">
             <span>Home<span></span>/</span>
             <span>Men Clothing<span></span>/</span>
@@ -78,40 +88,6 @@
                 <h2>Oversized T-Shirts for Men <span>(1255)</span></h2>
                 <hr>
             </div>
-            <!-- <div id="filters-and-results">
-                <div id="filters">
-                    <h5 style="margin-bottom: 10px;">FILTERS</h5>
-                    <div>Gender<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Sizes<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Brand<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Color<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Design<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Fit<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Sleeve<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Neck<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Type<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Ratings<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Discount<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                    <div>Sort By<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
-                </div>
-                <div id="results">
-                    <div id="results-header">
-                            <h5 style="margin-bottom: 10px; float:right;">SORT BY <span>Popular</span><span><i class="fa-solid fa-chevron-down" style="color: #333;"></i></span></h5>
-                    </div>
-                    <div id="results-pics-grid">
-                        <div>
-                            <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
-                            </div>
-                            <div class="results-pics-grid-info">
-
-                            </div>
-                        </div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div> -->
             <div id="filters">
                 <h5 style="margin-bottom: 10px;">FILTERS</h5>
                 <div>Gender<i class="fa-solid fa-chevron-down" style="color: #333;"></i></div>
@@ -149,7 +125,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-god-of-festivals-graphic-printed-oversized-t-shirt-567556-1688120775-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -161,7 +137,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-across-the-spiderverse-graphic-printed-oversized-t-shirt-599566-1687765259-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -176,7 +152,7 @@
                     <div id="results-pics-grid-row-2" style="display: flex; width: 100%; justify-content: space-evenly;">
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-the-view-graphic-printed-oversized-t-shirt-565908-1680613355-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -188,7 +164,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-the-ryuk-graphic-printed-oversized-t-shirt-594499-1685103434-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -200,7 +176,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-purple-beast-within-2-0-oversized-t-shirt-581488-1677228989-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -215,7 +191,7 @@
                     <div id="results-pics-grid-row-3" style="display: flex; width: 100%; justify-content: space-evenly;">
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-hunter-x-hunter-graphic-printed-oversized-t-shirt-591079-1682596315-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -227,7 +203,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-purple-slayer-squad-graphic-printed-oversized-t-shirt-591647-1683287848-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -239,7 +215,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-green-don-t-care-graphic-print-oversized-t-shirt-609642-1691753748-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -254,7 +230,7 @@
                     <div id="results-pics-grid-row-4" style="display: flex; width: 100%; justify-content: space-evenly;">
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-genjutsu-graphic-printed-t-shirt-519163-1667519185-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -266,7 +242,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-fly-me-to-the-moon-graphic-printed-oversized-t-shirt-505572-1667492228-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -278,7 +254,7 @@
                         </div>
                         <div>
                             <div class="results-pics-grid-pics">
-                                <img src="https://images.bewakoof.com/t640/men-s-red-limited-edition-graphic-print-oversized-t-shirt-609634-1691754663-1.jpg">
+                                <img src="https://images.bewakoof.com/t640/men-s-black-oversized-t-shirt-439421-1679048737-1.jpg">
                             </div>
                             <div class="results-pics-grid-info">
                                 <span class="results-info-text-style product-title">Bewakoof®</span><span class="heart-symbol">🤍</span>
@@ -295,7 +271,6 @@
             </div> 
             
         </div>
-
         <div id="footer">
             <img src="data:image/png;base64,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" style="height: 200px; margin-top: 0; margin-left: 100px;">
             <div style="height: 128px; width: 80%; margin-left: 100px; display: flex; justify-content: space-between;" class="">
@@ -334,8 +309,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div> 
     </div>
 </body>
 </html>
