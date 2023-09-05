@@ -1,0 +1,58 @@
+#container{
+    height: 630px;
+    border: 1px solid blue;
+}
+
+#page{
+    height: 100%;
+    display: flex;
+}
+
+#page-div-left, #page-div-right{
+    width: 50%;
+    height: 90%;
+    margin-top: 5%;
+    border: 1px solid black;
+}
+
+#heading{
+    height: 20%;
+    width: 100%;
+    margin-top: 2%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#heading > p:nth-child(1){
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+#heading > p:nth-child(2){
+    font-size: 1.25em;
+}
+
+#login-with-mobile{
+    height: 30%;
+    border: 1px solid black;
+    padding-top: 5%;
+}
+
+#login-with-mobile > div{
+    width: 60%;
+    height: 35%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 0.5em;
+}
+
+#continue-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
